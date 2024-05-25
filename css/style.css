@@ -340,6 +340,17 @@ margin-top: 80px;
     width: 380px;
   }
   
+  .heading-galery h2 {
+    margin-top: -100px;
+  }
+
+  .heading-contact h2 {
+    margin-top: -100px;
+  }
+
+  .heading-project h2 {
+    margin-top: -100px;
+  }
 }
 
 .wrapper {
