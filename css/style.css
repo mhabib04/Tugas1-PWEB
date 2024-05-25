@@ -199,6 +199,7 @@ margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .content-title h2 {
@@ -304,18 +305,28 @@ margin-top: 80px;
 
 @media only screen and (max-width: 600px) {
   .galery {
-    flex-direction: column; /* Mengubah tata letak menjadi kolom */
-    align-items: center; /* Pusatkan item di tengah */
-    gap: 20px; /* Berikan jarak antara card */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: -100px;
   }
 
   .galery-card {
-    width: 50%; /* Mengisi lebar penuh layar */
-    aspect-ratio: 1; /* Biarkan rasio aspek tetap */
+    width: 50%;
+    aspect-ratio: 1;
+    margin-top: 50px;
   }
 
   .galery-card > .galery-content {
-    height: auto; /* Biarkan ketinggian menyesuaikan konten */
-    border-radius: 0; /* Hapus radius sudut */
+    height: auto; 
+    border-radius: 0;
+  }
+
+  .photo-index {
+    margin-bottom: -50px;
+  }
+  
+  .container {  
+    margin-top: -50px;
   }
 }
