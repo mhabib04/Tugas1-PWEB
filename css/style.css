@@ -329,4 +329,8 @@ margin-top: 80px;
   .container {  
     margin-top: -50px;
   }
+
+  .content-box {
+    width: 380px;
+  }
 }
