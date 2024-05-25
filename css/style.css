@@ -10,7 +10,7 @@
 
 body {
 height: 100vh;
-background-color: whitesmoke;
+background-color: #FFF2D7;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -19,7 +19,7 @@ flex-direction: column;
 
 nav {
 width: 100%;
-background-color: wheat;
+background-color: #C08B5C;
 box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 position: fixed;
 top: 0;
@@ -44,11 +44,11 @@ padding: 0 30px;
 text-decoration: none;
 display: flex;
 align-items: center;
-color: blue;
+color: black;
 }
 
 nav a:hover {
-color: aqua;
+color: red;
 }
 
 nav li:first-child {
@@ -62,7 +62,7 @@ right: 0;
 height: 100vh;
 width: 250px;
 z-index: 999;
-background-color: rgba(255, 255, 255, 0.8);
+background-color: #FFF2D7;
 backdrop-filter: blur(10px);
 box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
 display: none;
@@ -137,11 +137,11 @@ position: absolute;
 }
 
 .btn span {
-color: hsl(281, 100%, 35%);
+color: #803D3B;
 }
 
 .btn span:hover {
-color: hsl(281, 100%, 40%);
+color: #803D3B;
 }
 
 .btn.previous {
@@ -169,7 +169,7 @@ right: 10px;
 width: 85%;
 max-width: 600px;
 padding: 15px;
-background-color: wheat;
+background-color: #F8C794;
 border-radius: 10px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -198,7 +198,7 @@ margin-top: 80px;
 
 .content-box {
   width: 500px;
-  background: white;
+  background: #F8C794;
   padding: 20px;
   box-shadow: 0 0 3px #cacaca;
   text-align: left;
@@ -279,7 +279,7 @@ margin-top: 80px;
   left: 0;
   width: 100%;
   height: 40%;
-  background-color: whitesmoke;
+  background-color: #FFE0B5;
   padding: 1.4rem;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -392,8 +392,7 @@ margin-top: 80px;
 
 .icon:hover > i {
   scale: 2.2;
-  background: linear-gradient(220.55deg, #565656 0%, #181818 100%);
-  /* background: linear-gradient(220.55deg, #a531dc 0%, #4300b1 100%); */
+  background: linear-gradient(220.55deg, #565656 0%, #ECB176 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -404,8 +403,7 @@ margin-top: 80px;
   position: absolute;
   inset: 0;
   border-radius: 100%;
-  background: linear-gradient(220.55deg, #565656 0%, #181818 100%);
-  /* background: linear-gradient(220.55deg, #a531dc 0%, #4300b1 100%); */
+  background: linear-gradient(220.55deg, #565656 0%, #ECB176 100%);
   scale: 1;
   z-index: -1;
   transition: all 300ms ease-out;
